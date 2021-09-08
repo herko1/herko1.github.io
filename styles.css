@@ -1,14 +1,71 @@
 body {
-    background: #111;
-    max-width: 700px;
-    font-size: 16px;
-    display: block;
-    margin: auto;
     color: #ffffff;
-}
-
-.footer {
+    background-color: #000000;
+    font-size: 17px;
+    max-width: 700px;
+    margin: auto;
+    background-image: url(stars.png);
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  
+  h3 {
+    font-size: 17px;
+    text-decoration: underline;
+  }
+  
+  time {
+    font-size: 16px;
+    font-style: italic;
+  }
+  
+  a:link {
+    color: #ffffff;
+  }
+  
+  a:visited {
+    color: #ffffff;
+  }
+  
+  header {
+    font-size: 19px;
     text-align: center;
-    font-size: 12px;
-    color: rgb(112, 112, 112);
-}
+  }
+  
+  footer {
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #dddddd;
+  }
+  #noborder {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #dddddd00;
+  }
+  
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+  }
